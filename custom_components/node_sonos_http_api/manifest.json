@@ -1,6 +1,7 @@
 {
   "domain": "node_sonos_http_api",
   "name": "Node Sonos HTTP API",
+  "version": "0.1.0",
   "codeowners": ["@hco"],
   "config_flow": true,
   "dependencies": [],
