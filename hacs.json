@@ -1,5 +1,5 @@
 {
-    "name": "Integration blueprint",
-    "render_readme": true,
-    "homeassistant": "2022.2.0"
+  "name": "Node Sonos HTTP API (Sonos Presets)",
+  "render_readme": true,
+  "homeassistant": "2023.1.0"
 }
