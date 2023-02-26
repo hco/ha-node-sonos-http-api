@@ -1,7 +1,9 @@
 {
   "domain": "node_sonos_http_api",
   "name": "Node Sonos HTTP API",
-  "codeowners": ["@hco"],
+  "codeowners": [
+    "@hco"
+  ],
   "config_flow": true,
   "dependencies": [],
   "documentation": "https://www.home-assistant.io/integrations/node_sonos_http_api",
@@ -10,6 +12,6 @@
   "issue_tracker": "https://github.com/hco/ha-node-sonos-http-api/issues",
   "requirements": [],
   "ssdp": [],
-  "version": "0.1.0",
+  "version": "0.1.1",
   "zeroconf": []
 }
