@@ -7,9 +7,32 @@
 [![hacs][hacsbadge]][hacs]
 ![Project Maintenance][maintenance-shield]
 
-_Integration to integrate with [node-sonos-http-api][https://github.com/jishi/node-sonos-http-api]._
+_Integrates home assistant with [node-sonos-http-api](https://github.com/jishi/node-sonos-http-api)._
+I also provide a Home Assistant Addon for that API, see my [home-assistant-addons](https://github.com/hco/home-assistant-addons).
 
-It allows you to trigger presets defined in `node-sonos-http-api`from home assistant, as it creates a button entity for every preset defined in node-sonos-http-api.
+It allows you to define presets ("scenes") for your sonos speakers and trigger them trigger presets from home assistant, as it creates a button entity for every preset defined in node-sonos-http-api.
+
+The presets are defined as JSON files, e.g. the following can be stored as `goodMorning.json`
+
+```json
+{
+  "players": [
+    {
+      "roomName": "Living Room",
+      "volume": 15
+    },
+    {
+      "roomName": "Kitchen",
+      "volume": 20
+    },
+    {
+      "roomName": "Bathroom",
+      "volume": 5
+    }
+  ],
+  "favorite": "1LIVE"
+}
+```
 
 **This integration will set up the following platforms.**
 
