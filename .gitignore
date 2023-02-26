@@ -29,3 +29,4 @@ secrets.yaml
 
 # dev tools
 venv
+/node_modules
