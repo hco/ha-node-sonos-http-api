@@ -6,10 +6,6 @@
 
 [![hacs][hacsbadge]][hacs]
 ![Project Maintenance][maintenance-shield]
-[![BuyMeCoffee][buymecoffeebadge]][buymecoffee]
-
-[![Discord][discord-shield]][discord]
-[![Community Forum][forum-shield]][forum]
 
 _Integration to integrate with [node-sonos-http-api][https://github.com/jishi/node-sonos-http-api]._
 
@@ -41,7 +37,6 @@ If you want to contribute to this please read the [Contribution guidelines](CONT
 
 ---
 
-[integration_blueprint]: https://github.com/hco/ha-node-sonos-http-api/
 [commits-shield]: https://img.shields.io/github/commit-activity/y/hco/ha-node-sonos-http-api.svg?style=for-the-badge
 [commits]: https://github.com/hco/ha-node-sonos-http-api/commits/main
 [hacs]: https://github.com/hacs/integration
