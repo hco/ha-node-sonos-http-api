@@ -70,7 +70,16 @@ class NodeSonosPresetButton(ButtonEntity):
     def __init__(self, api_client: NodeSonosHttpApiClient, preset: str):
         self.preset = preset
         self.api_client = api_client
-        self._attr_name = preset
+        # replace camelCase with spaces and capitalize
+        name = self.preset[0].upper()
+        for char in self.preset[1:]:
+            if char.isupper():
+                name += " "
+            name += char
+
+        # replace underscores with spaces
+        name = name.replace("_", " ")
+        self._attr_name = name
 
     async def async_press(self) -> None:
         await self.api_client.async_activate_preset(self.preset)
