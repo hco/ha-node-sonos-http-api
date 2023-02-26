@@ -1,6 +1,5 @@
 {
   "name": "Node Sonos HTTP API (Sonos Presets)",
   "render_readme": true,
-  "homeassistant": "2023.1.0",
-  "issue_tracker": "https://github.com/hco/ha-node-sonos-http-api/issues"
+  "homeassistant": "2023.1.0"
 }
