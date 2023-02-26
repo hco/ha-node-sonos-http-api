@@ -1,0 +1,13 @@
+{
+  "domain": "node_sonos_http_api",
+  "name": "Node Sonos HTTP API",
+  "codeowners": ["@hco"],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://www.home-assistant.io/integrations/node_sonos_http_api",
+  "homekit": {},
+  "iot_class": "local_polling",
+  "requirements": [],
+  "ssdp": [],
+  "zeroconf": []
+}
