@@ -1,5 +1,15 @@
 {
   "github": {
     "release": true
+  },
+  "plugins": {
+    "@release-it/bumper": {
+      "in": "custom_components/node_sonos_http_api/manifest.json",
+      "out": "custom_components/node_sonos_http_api/manifest.json"
+    },
+    "@release-it/conventional-changelog": {
+      "preset": "angular",
+      "infile": "CHANGELOG.md"
+    }
   }
 }
